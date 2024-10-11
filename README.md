@@ -13,7 +13,7 @@ This FastAPI project performs CRUD operations for **Items** and **User Clock-In 
 To run this project locally, follow these steps:
 
 ### 1. Clone the Repository
-```bash
+bash
 git clone <https://github.com/Mahadevj1024/vodex_fastapi.git>
 cd vodex_fastapi
 pip install -r requirements.txt
