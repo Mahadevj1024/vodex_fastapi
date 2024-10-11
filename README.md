@@ -16,6 +16,7 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/Mahadevj1024/vodex_fastapi.git
 cd vodex_fastapi
+```
 
 ### 2. Running locally
 uvicorn app.main:app --reload
