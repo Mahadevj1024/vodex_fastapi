@@ -22,3 +22,39 @@ cd vodex_fastapi
 ```bash
 uvicorn app.main:app --reload
 ```
+
+## Endpoints
+
+### Items API
+#### 1. **Create Item** - POST /items:
+Input: Name, Email, Item Name, Quantity, Expiry Date.
+Automatically adds Insert Date
+
+#### 2. **Get Item by ID** - GET /items/{id}
+
+#### 3. **Filter Items** - GET /items/filter:
+Filter by Email, Expiry Date, Insert Date, Quantity.
+
+#### 4. **Update Item** - PUT /items/{id}
+
+#### 5. **Delete Item** - DELETE /items/{id}
+
+#### 6. **MongoDB Aggregation** - GET /items/aggregate:
+Aggregate items by email and return the count for each.
+
+### User Clock-In Records API
+#### 1. **Create clock-in** - POST /clock-in:
+Input: Email, Location.
+Automatically adds Insert DateTime
+
+#### 2. **Get clock-in by ID** - GET /clock-in/{id}
+
+#### 3. **Filter clock-in** - GET /clock-in/filter:
+Filter by Email, Location, Insert DateTime.
+
+#### 4. **Update clock-in** - PUT /clock-in/{id}
+
+#### 5. **Delete clock-in** - DELETE /clock-in/{id}
+
+
+
