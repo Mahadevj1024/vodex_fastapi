@@ -19,4 +19,6 @@ cd vodex_fastapi
 ```
 
 ### 2. Running locally
+```bash
 uvicorn app.main:app --reload
+```
